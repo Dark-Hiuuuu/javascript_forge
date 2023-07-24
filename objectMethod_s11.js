@@ -12,7 +12,7 @@ var Cat = {
 
 };
 var Mouse = {
-    weight : "2 month", 
+    weight : 2, 
     name : 'Mickey',
     sayhello : function() {
         console.log('hello my name is ',this.name)
