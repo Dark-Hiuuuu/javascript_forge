@@ -64,14 +64,6 @@
 // var afterMultiply = arr.map(multiply)
 // console.log(afterMultiply)
 
-
-// 
-
-
-
-
-
-
 const users = [
   {
     name: "Angelina Jolie",
