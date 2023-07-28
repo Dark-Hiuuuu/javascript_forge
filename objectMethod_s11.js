@@ -1,3 +1,7 @@
+function eatMouse(Mouse) {
+    console.log(Mouse.name + ' seem very dilicous, now i will eat u')
+    console.log('haha my weight now is',this.weight = this.weight + Mouse.weight +"kg")
+}
 var Cat = {
     name : "Klow",
     age : "18 month",
@@ -5,10 +9,7 @@ var Cat = {
     sayHello : function() {
         console.log("hello my name is", this.name);
     },
-    eat : function eatMouse(Mouse) {
-        console.log(Mouse.name + ' seem very dilicous, now i will eat u')
-        console.log('haha my weight now is',this.weight = this.weight + Mouse.weight +"kg")
-    }
+    eat : eatMouse(Mouse),
 
 };
 var Mouse = {

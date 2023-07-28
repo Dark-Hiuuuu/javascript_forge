@@ -1,11 +1,11 @@
-// var myDog = {
-//     name : "Đần",
-//     age : 18,
-//     weight:5
-// }
-// for (var key in myDog) {
-//     console.log(key,myDog.key)
-// }
+var myDog = {
+    name : "Đần",
+    age : 18,
+    weight:5
+}
+for (var key in myDog) {
+    console.log(myDog['name'])
+}
 
 
 // function multiply(arr) {
@@ -74,12 +74,12 @@
 // console.log(checkObjectHasKey(func,"age"))
 
 // // CÁCH 2
-var myDog = {
-    name : "Đần",
-    age : 18,
-    weight:5
-}
-function checkKeyinObject(keyObject,objectInput){
-    return keyObject in objectInput;
-};
-console.log(checkKeyinObject("age",myDog))
+// var myDog = {
+//     name : "Đần",
+//     age : 18,
+//     weight:5
+// }
+// function checkKeyinObject(keyObject,objectInput){
+//     return keyObject in objectInput;
+// };
+// console.log(checkKeyinObject("age",myDog))
